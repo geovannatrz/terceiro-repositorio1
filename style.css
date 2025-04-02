@@ -14,6 +14,39 @@ body {
     font-family:'Noto Sans';
 }
 
+
+section {
+    padding-bottom: 5rem;
+}
+
+.display-4{
+    text-shadow: -5px -5px var(--cor3)
+}
+
+#praia{
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    background: var(--branco);
+    background-size: 180px 180px;
+}
+
+#praia .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
 #contato {
     background: var(--cor-principal);
     background-size: cover;
