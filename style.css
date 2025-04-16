@@ -7,18 +7,16 @@
     --cor3: #f57f7b;
     --preto: #000000;
     --branco: #FFFFFF;
+
 }
 
 body {
     font-size: 1rem;
-    font-family:'Noto Sans';
+    font-family:'Montserrat';
 }
-
 
 section {
     padding-bottom: 5rem;
-}
-
 }
  
 header {
@@ -26,12 +24,12 @@ header {
 }
 
 .nav-link {
-    color: var(--laranja-claro);
+    color: var(--cor1: #e65a5a; );
     font-weight: 600;
 }
 
 .inicio-fundo {
-    background-image: url(img/4965007.jpg);
+    background-image: url(img/Pôr_do_Sol_refletido_na_água_em_São_Sebastião\ 6.jpg);
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -49,7 +47,7 @@ header {
 }
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--cor1: #e65a5a; );
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -59,9 +57,8 @@ header {
 
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px var(--cor1: #e65a5a; );
 }
-
 
 #praia{
     position: relative;
@@ -81,6 +78,14 @@ header {
 
 
 
+
+
+
+
+
+
+
+
 #contato {
     background: var(--cor-principal);
     background-size: cover;
@@ -95,6 +100,14 @@ header {
     font-weight: bold;
 }
 
-.formulario button {}
+.formulario button {
+    background-color: #ed6383;
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #a70d0d;
+}
 
 
