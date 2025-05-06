@@ -142,4 +142,26 @@ header {
     color: var(--branco);
 }
 
+.alto-contraste .nav-link {
+    color: var(--cor-principal);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+    background-color: var(--cor-principal);
+    color: var(--preto);
+}
+
+.alto-contraste #Praia {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--preto);
+}
+
+.alto-contraste .fundo-galeria {
+    background: none;
+}
 
