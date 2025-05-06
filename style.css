@@ -29,7 +29,7 @@ header {
 }
 
 .inicio-fundo {
-    background-image: url(img/Pôr_do_Sol_refletido_na_água_em_São_Sebastião\ 6.jpg);
+    background-image: url(img/fundopraia.jpg);
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -95,13 +95,13 @@ header {
 }
 
 .formulario button {
-    background-color: #ed6383;
+    background-color:var(--cor1);
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: #f57f7b;;
+    background-color: var(--cor3) #f57f7b;;
 }
 
 .menu-acessibilidade{
@@ -128,6 +128,18 @@ header {
    
 .apresenta-lista {
     display: none;
-
 }
+
+.alto-contraste{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
 
