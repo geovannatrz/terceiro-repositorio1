@@ -20,7 +20,7 @@ section {
 }
  
 header {
-    background-color: var(--cor-principal);
+    background-color: var(--branco);
 }
 
 .nav-link {
