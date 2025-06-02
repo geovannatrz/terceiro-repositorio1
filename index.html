@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Praia </title>
+    <title> Página Principal </title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -20,8 +20,9 @@
             <li class="nav-item"> <a class="nav-link" href="#galeria"> Galeria </a> </li>
             <li class="nav-item"> <a class="nav-link" href="#contato"> Contato </a> </li> 
         </ul>
-        </nav>
-        <div id="acessibilidade" class="menu-acessibilidade">
+    </nav>
+
+    <div id="acessibilidade" class="menu-acessibilidade">
             <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false"> Acessibilidade </button>
             <div id="opcoes-acessibilidade" class=" opcoes-acessibilidade apresenta-lista">
                 <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
@@ -29,18 +30,18 @@
                 <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores" > <i class="bi bi-shadows"></i> </button>
             </div>
        </div>
+
    </header>
    <main class="container my-5">
        
        <section id="Início" class="my-5">
-        <div>
-             <div>
+       <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
                 <h2>Boas vindas</h2>
                 <img src="img/Orange Minimalist Beach Club Logo (2).png" alt="logotipo da Praia" class="mb-3" width="563" height="278" loading="lazy" >
                 <a href="#praia" class="btn btn-primary btn-lg botao-inicio fw-sweibold"> Quero conhecer </a>
              </div> 
-        </div>
-  
+         </div>
        </section>
 
        <section id="Praia" class="my-5 pt-6 secao-praia">
@@ -56,12 +57,18 @@
        <section id="galeria">
         <h2 class="text-center pt-5"> Galeria </h2>
         <div class="container p-3 mt-3 fundo-galeria">
+
+
+            <div class="row justify-content-md-center">
             <div class="col-md-4">
-                <img src="img/11643396245_e4ae4436d0_o.jpg" alt="imagem do por do sol na praia" class="img-fluid rounded-5" loading="lazy"> 
+                <img src="img/11643396245_e4ae4436d0_o.jpg" alt="imagem do por do sol na praia" 
+                class="img-fluid rounded-5" loading="lazy"> 
             </div>
             <div class="col-md-4">
-                <img src="img/24111777593_42053cc913_o.jpg" alt="imagem da praia com vista da cidade" class="img-fluid rounded-5" loading="lazy">
+                <img src="img/24111777593_42053cc913_o.jpg" class="img-fluid rounded-5"
+                 loading="lazy">
             </div>
+          </div>
         </div>
 
        </section>
@@ -94,16 +101,14 @@
 
    </main>
    <footer class="text-center p-3 fst-italic">
-      
        <p>Acesse nossas redes:</p>
        <i class="bi bi-whatsApps"></i>
        <i class="bi bi-instagram"></i>
+       <i class="bi bi-tiktok"></i>
        <p>Desenvolvido por Geovanna Martins. Projeto fictício 
         sem fins comerciais</p>
-
    </footer>
    <script src="script.js"></script>
-
 </body>
 
 </html>

@@ -23,6 +23,10 @@ header {
     background-color: var(--branco);
 }
 
+.nav-imagem {
+
+}
+
 .nav-link {
     color: var(--cor1: #e65a5a; );
     font-weight: 600;
@@ -75,10 +79,6 @@ header {
     position: relative;
     z-index: 1;
 }
-
-
-
-
 
 #contato {
     background: var(--cor-principal);
@@ -161,7 +161,4 @@ header {
     background-color: var(--preto);
 }
 
-.alto-contraste .fundo-galeria {
-    background: none;
-}
 
